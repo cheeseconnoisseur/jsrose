@@ -54,6 +54,8 @@ function draw() {
     //this turns an angle and radius into x/y
     var x = radius * cos(a)
     var y = radius * sin(a)
+
+    //rand = rand + random (-0.21,0.21)
     //point(x, y)
     vertex(x + rand, y + rand)
   }
